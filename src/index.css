@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::selection {
+    @apply bg-indigo-400/50;
+  }
+  body {
+    @apply grid min-h-svh bg-slate-950 p-4 text-slate-50 sm:place-content-center;
+  }
+}
